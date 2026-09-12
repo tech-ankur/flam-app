@@ -9,7 +9,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PORT = Number(process.env['PORT'] ?? 3001);
 
 // Serve React frontend in local dev / self-hosted production
-const clientDistPath = path.resolve(__dirname, '../../client/dist');
+const clientDistPath = path.resolve(__dirname, '../../../dist');
 app.use(express.static(clientDistPath));
 app.get('*', (_req, res) => {
   res.sendFile(path.join(clientDistPath, 'index.html'));

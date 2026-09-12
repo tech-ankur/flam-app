@@ -1,7 +1,7 @@
 {
   "buildCommand": "pnpm --filter @flam2/orm build && pnpm --filter todo-app build:client",
-  "outputDirectory": "apps/todo-app/src/client/dist",
-  "installCommand": "pnpm install",
+  "outputDirectory": "apps/todo-app/dist",
+  "installCommand": "pnpm install --no-frozen-lockfile",
   "framework": null,
   "functions": {
     "apps/todo-app/api/index.ts": {
