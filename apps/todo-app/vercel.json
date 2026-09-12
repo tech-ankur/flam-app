@@ -1,0 +1,14 @@
+{
+  "buildCommand": "cd ../.. && pnpm --filter @flam2/orm build && pnpm --filter todo-app build:client",
+  "outputDirectory": "dist",
+  "installCommand": "cd ../.. && pnpm install --no-frozen-lockfile",
+  "framework": null,
+  "functions": {
+    "api/index.ts": {
+      "runtime": "nodejs20.x"
+    }
+  },
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/index.ts" }
+  ]
+}
