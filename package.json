@@ -1,0 +1,21 @@
+{
+  "name": "flam2-orm-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Lightweight TypeScript ORM monorepo",
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm --parallel -r dev",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint",
+    "migrate": "node packages/orm/migrate.mjs"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}
