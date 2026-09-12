@@ -14,7 +14,7 @@
     "typecheck": "tsc --project tsconfig.json --noEmit && tsc --project tsconfig.server.json --noEmit"
   },
   "dependencies": {
-    "@flam2/orm": "workspace:*",
+    "@ankur1/orm": "^0.1.0",
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "react": "^19.3.0",

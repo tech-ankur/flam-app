@@ -1,6 +1,6 @@
 # Architecture
 
-This document explains the internal design of `@flam2/orm`.
+This document explains the internal design of `@ankur1/orm`.
 
 ---
 

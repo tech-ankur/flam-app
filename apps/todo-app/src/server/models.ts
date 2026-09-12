@@ -1,4 +1,4 @@
-import { defineModel, number, string, boolean } from '@flam2/orm';
+import { defineModel, number, string, boolean } from '@ankur1/orm';
 
 /**
  * Todo model definition.

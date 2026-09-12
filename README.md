@@ -1,8 +1,8 @@
-# @flam2/orm
+# @ankur1/orm
 
 > Lightweight, fully-typed TypeScript ORM for serverless Postgres (Neon, Supabase, Railway).
 
-[![npm](https://img.shields.io/npm/v/@flam2/orm)](https://www.npmjs.com/package/@flam2/orm)
+[![npm](https://img.shields.io/npm/v/@ankur1/orm)](https://www.npmjs.com/package/@ankur1/orm)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.5-blue)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -21,7 +21,7 @@
 ## Quick Start
 
 ```ts
-import { createClient, defineModel, number, string, boolean } from '@flam2/orm';
+import { createClient, defineModel, number, string, boolean } from '@ankur1/orm';
 
 // 1. Define your model
 const Todo = defineModel('todo', {
@@ -86,7 +86,7 @@ cp apps/todo-app/.env.example apps/todo-app/.env
 ### 5. Build the ORM package
 
 ```bash
-pnpm --filter @flam2/orm build
+pnpm --filter @ankur1/orm build
 ```
 
 ### 6. Run the Todo app
@@ -163,8 +163,8 @@ See [ARCHITECTURE.md](./ARCHITECTURE.md) for a full walkthrough of:
 ## Publishing to npm
 
 ```bash
-pnpm --filter @flam2/orm build
-pnpm --filter @flam2/orm publish --access public
+pnpm --filter @ankur1/orm build
+pnpm --filter @ankur1/orm publish --access public
 ```
 
 ---

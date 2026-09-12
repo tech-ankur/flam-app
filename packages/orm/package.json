@@ -1,5 +1,5 @@
 {
-  "name": "@flam2/orm",
+  "name": "@ankur1/orm",
   "version": "0.1.0",
   "description": "Lightweight TypeScript ORM for serverless Postgres (Neon / Supabase)",
   "author": "flam2",

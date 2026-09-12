@@ -109,7 +109,7 @@ export default function App() {
     <div className="app">
       <header className="header">
         <h1>✅ Todo App</h1>
-        <p className="subtitle">Powered by <strong>@flam2/orm</strong></p>
+        <p className="subtitle">Powered by <strong>@ankur1/orm</strong></p>
       </header>
 
       {/* Error banner */}

@@ -14,7 +14,7 @@ importers:
 
   apps/todo-app:
     dependencies:
-      '@flam2/orm':
+      '@ankur1/orm':
         specifier: workspace:*
         version: link:../../packages/orm
       cors:
