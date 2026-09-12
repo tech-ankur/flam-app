@@ -1,0 +1,14 @@
+{
+  "buildCommand": "pnpm --filter @flam2/orm build && pnpm --filter todo-app build:client",
+  "outputDirectory": "apps/todo-app/src/client/dist",
+  "installCommand": "pnpm install",
+  "framework": null,
+  "functions": {
+    "apps/todo-app/api/index.ts": {
+      "runtime": "nodejs20.x"
+    }
+  },
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/apps/todo-app/api/index.ts" }
+  ]
+}
